@@ -1,0 +1,2 @@
+select * from [MARCAJE MAESTRO] MM INNER JOIN EMPLEADO E ON MM.Empleado=E.Codigo  WHERE  MM.Fecha='20210819' AND E.Ubicacion=3
+and (hora_Ent IS NOT NULL AND hora_sal IS NOT NULL) ORDER BY E.Empresa, MM.Empleado
